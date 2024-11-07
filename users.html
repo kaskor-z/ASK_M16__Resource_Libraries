@@ -9,7 +9,6 @@
             <strong> Username: {{user.username}} <br> Age: {{user.age}} </strong>
         </p>
     </article>
-        <!-- Напишите свой код здесь (Вывод свойств объекта User) -->
     {% else %}
             <section class="container-fluid">
                 <h2 align="center"> Users </h2>
@@ -21,7 +20,6 @@
                             <a href="/user/{{user.id}}"> {{user.username}} </a>
                         </li>
                         {% endfor %}
-                        <!-- Напишите свой код здесь (перебор пользователей) -->
                     </ul>
                 </div>
             </section>
